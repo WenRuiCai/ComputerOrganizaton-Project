@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/ISE_project/P7_S/MIPS_System_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="MIPS_System_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/MIPS_System_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/Instr_IF_D_wire" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instr_IF_D_wire[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr_IF_D_wire[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/Instr_D_ID_wire" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instr_D_ID_wire[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr_D_ID_wire[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/EXC_DT_DP/Instr_E_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instr_E_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr_E_M[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/EXC_DT_DP/Instr_M_W" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instr_M_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr_M_W[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/EXC_DT_DP/PC_D_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_D_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_D_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/EXC_DT_DP/PC_E_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_E_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_E_M[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/EXC_DT_DP/PC_M_W" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_M_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_M_W[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/EXC_DT_DP/PC_W" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_W[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/CP0_DP/INT_EXC_Req" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">INT_EXC_Req</obj_property>
+      <obj_property name="ObjectShortName">INT_EXC_Req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/CP0_DP/EPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EPC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/CP0_DP/HWInt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HWInt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">HWInt[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/CP0_DP/EXLClr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EXLClr</obj_property>
+      <obj_property name="ObjectShortName">EXLClr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/Timer0/CTRL" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CTRL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CTRL[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/Timer0/PRESET" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PRESET[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PRESET[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/Timer0/COUNT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">COUNT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNT[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/Timer0/WE_I" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WE_I</obj_property>
+      <obj_property name="ObjectShortName">WE_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/CP0_DP/SR_DOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SR_DOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SR_DOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/CP0_DP/Cause_DOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Cause_DOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Cause_DOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/CP0_DP/EPC_DOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EPC_DOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EPC_DOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_System_tb/uut/mips_CPU/DP/CP0_DP/PRID_DOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PRID_DOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PRID_DOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
