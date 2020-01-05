@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="301" delta="old" ><arg fmt="%s" index="1">&quot;Reg_PC.v&quot; line 37 </arg>Too many digits specified in hex constant
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="301" delta="old" ><arg fmt="%s" index="1">&quot;Reg_PC.v&quot; line 41 </arg>Too many digits specified in hex constant
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="301" delta="old" ><arg fmt="%s" index="1">&quot;InstructionMemory.v&quot; line 28 </arg>Too many digits specified in hex constant
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="301" delta="new" ><arg fmt="%s" index="1">&quot;EXT.v&quot; line 32 </arg>Too many digits specified in hex constant
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;mips.v&quot; line 55 </arg>Connection to input port &apos;<arg fmt="%s" index="2">en</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;mips.v&quot; line 59 </arg>Connection to input port &apos;<arg fmt="%s" index="2">en</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;mips.v&quot; line 63 </arg>Connection to input port &apos;<arg fmt="%s" index="2">en</arg>&apos; does not match port size
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="old" >&quot;<arg fmt="%s" index="1">InstructionMemory.v</arg>&quot; line <arg fmt="%d" index="2">35</arg>: reading initialization file &quot;<arg fmt="%s" index="3">code.txt</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="new" >&quot;<arg fmt="%s" index="1">GRF.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: Parameter <arg fmt="%d" index="3">2</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2323" delta="new" >&quot;<arg fmt="%s" index="1">GRF.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: Parameter <arg fmt="%d" index="3">3</arg> is not constant in call of system task <arg fmt="%s" index="4">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2323" delta="new" >&quot;<arg fmt="%s" index="1">GRF.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: Parameter <arg fmt="%d" index="3">4</arg> is not constant in call of system task <arg fmt="%s" index="4">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2323" delta="new" >&quot;<arg fmt="%s" index="1">GRF.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: Parameter <arg fmt="%d" index="3">5</arg> is not constant in call of system task <arg fmt="%s" index="4">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="new" >&quot;<arg fmt="%s" index="1">DataMemory.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: Parameter <arg fmt="%d" index="3">2</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2323" delta="new" >&quot;<arg fmt="%s" index="1">DataMemory.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: Parameter <arg fmt="%d" index="3">3</arg> is not constant in call of system task <arg fmt="%s" index="4">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2323" delta="new" >&quot;<arg fmt="%s" index="1">DataMemory.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: Parameter <arg fmt="%d" index="3">4</arg> is not constant in call of system task <arg fmt="%s" index="4">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2323" delta="new" >&quot;<arg fmt="%s" index="1">DataMemory.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: Parameter <arg fmt="%d" index="3">5</arg> is not constant in call of system task <arg fmt="%s" index="4">$display</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">a</arg>&gt; in unit &lt;<arg fmt="%s" index="2">GRF</arg>&gt; has a constant value of <arg fmt="%s" index="3">100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">register&lt;0&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">GRF</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000000000000000000000000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">i</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DataMemory</arg>&gt; has a constant value of <arg fmt="%s" index="3">1000000000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Instr_in&lt;25:6&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">pc_add_4_in</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">5</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Mem_to_Reg</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="new" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">store_WE3</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="new" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Instr_D</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Instr_E</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Instr_M&lt;25:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Instr_W</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">stall_rt1_E2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">stall_rt0_M1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">stall_rt0_E2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">stall_rt0_E1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">stall_rs1_E2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">stall_rs0_M1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">stall_rs0_E2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">stall_rs0_E1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">F_rt_out_D</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">rom</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PC_plus_4</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">zero2</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">zero1</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sign_ext</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">one</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">1111111111111111</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">store</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="new" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">store</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="new" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">addr&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">pc_add_4</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">zero</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000000000000000000000000000</arg>.
+</msg>
+
+</messages>

@@ -1,0 +1,5 @@
+set -tmpdir "E:/CPU Project/PipeLine_CPU/xst/projnav.tmp"
+set -xsthdpdir "E:/CPU Project/PipeLine_CPU/xst"
+elaborate
+-ifn Level_WriteBack.prj
+-ifmt mixed

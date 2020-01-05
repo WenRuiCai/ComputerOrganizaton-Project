@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="568" delta="unknown" >"Reg_PC.v" Line 37: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">32</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="unknown" >"Reg_PC.v" Line 41: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">32</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="unknown" >"EXT.v" Line 32: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">16</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="unknown" >"DataMemory.v" Line 94: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">24</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="unknown" >"DataMemory.v" Line 107: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">16</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"Level_Memory.v" Line 44: Redeclaration of ansi port <arg fmt="%s" index="1">WriteData</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"cpu.v" Line 43: Redeclaration of ansi port <arg fmt="%s" index="1">Instruction_M</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"cpu.v" Line 45: Redeclaration of ansi port <arg fmt="%s" index="1">MemAddr_M</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"cpu.v" Line 59: Redeclaration of ansi port <arg fmt="%s" index="1">IRQ_E_and_M</arg> is not allowed
+</msg>
+
+</messages>
+

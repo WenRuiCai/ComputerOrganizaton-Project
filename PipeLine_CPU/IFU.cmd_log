@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/CPU Project/PipeLine_CPU/IFU.xst" -ofn "E:/CPU Project/PipeLine_CPU/IFU.syr" 

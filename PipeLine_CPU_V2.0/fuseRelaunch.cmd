@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "uni9000_ver" -lib "aim_ver" -lib "cpld_ver" -lib "xilinxcorelib_ver" -o "E:/CPU Project/PipeLine_CPU_V2.0/testCPU_isim_beh.exe" -prj "E:/CPU Project/PipeLine_CPU_V2.0/testCPU_beh.prj" "work.testCPU" "work.glbl" 

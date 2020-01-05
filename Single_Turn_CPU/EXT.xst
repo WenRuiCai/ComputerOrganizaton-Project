@@ -1,0 +1,5 @@
+set -tmpdir "E:/CPU Project/Single_Turn_CPU/xst/projnav.tmp"
+set -xsthdpdir "E:/CPU Project/Single_Turn_CPU/xst"
+elaborate
+-ifn EXT.prj
+-ifmt mixed

@@ -1,0 +1,33 @@
+ISim log file
+Running: E:\CPU Project\PipeLine_CPU_V2.0\testCPU_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/CPU Project/PipeLine_CPU_V2.0/testCPU_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance uut/Reg_D_to_E/, width 1 of formal port en is not equal to width 32 of actual constant.
+WARNING:  For instance uut/Reg_E_to_M/, width 1 of formal port en is not equal to width 32 of actual constant.
+WARNING:  For instance uut/Reg_M_to_W/, width 1 of formal port en is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $ 2 <= 000000a4
+                  55@00003004: $ 1 <= ffff0000
+                  65@00003008: $ 1 <= fffffffa
+                  75@0000300c: $ 3 <= fffffffa
+                  85@00003010: $ 4 <= 000000a0
+                  95@00003014: $ 1 <= 00003456
+                 105@00003018: $29 <= 00002ffc
+                 115@0000301c: $ 2 <= 000034fa
+                 135@00003024: $ 3 <= 00000009
+                 135@00003028: *00000010 <= 000034fa
+                 155@0000302c: $ 2 <= 00000011
+                 165@00003030: $ 1 <= 00000001
+                 175@00003034: $ 2 <= 00000010
+                 185@00003038: $ 8 <= 12340000
+                 195@0000303c: $ 9 <= 000034fa
+                 225@00003048: $ 1 <= fffffff1
+                 235@0000304c: $ 2 <= 12340010
+                 245@00003050: $17 <= 1be20000
+                 255@00003054: $ 2 <= 2e160010
+                 295@00003064: $31 <= 0000306c

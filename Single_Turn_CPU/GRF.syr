@@ -1,0 +1,1219 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.36 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.36 secs
+ 
+--> Reading design: GRF.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "GRF.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "GRF"
+Output Format                      : NGC
+Target Device                      : XC9500 CPLDs
+
+---- Source Options
+Top Module Name                    : GRF
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "GRF.v" in library work
+Module <GRF> compiled
+No errors in compilation
+Analysis of file <"GRF.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <GRF> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <GRF>.
+Module <GRF> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <a> in unit <GRF> has a constant value of 100000 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <GRF>.
+    Related source file is "GRF.v".
+WARNING:Xst:1780 - Signal <store> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1024-bit register for signal <register>.
+Unit <GRF> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 32
+ 32-bit register                                       : 32
+# Multiplexers                                         : 2
+ 32-bit 32-to-1 multiplexer                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 2
+ 32-bit 32-to-1 multiplexer                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <GRF> ...
+  implementation constraint: INIT=r	 : register_0_7
+  implementation constraint: INIT=r	 : register_1_6
+  implementation constraint: INIT=r	 : register_2_5
+  implementation constraint: INIT=r	 : register_3_4
+  implementation constraint: INIT=r	 : register_4_3
+  implementation constraint: INIT=r	 : register_5_2
+  implementation constraint: INIT=r	 : register_6_1
+  implementation constraint: INIT=r	 : register_7_0
+  implementation constraint: INIT=r	 : register_7_31
+  implementation constraint: INIT=r	 : register_8_30
+  implementation constraint: INIT=r	 : register_9_29
+  implementation constraint: INIT=r	 : register_10_28
+  implementation constraint: INIT=r	 : register_11_27
+  implementation constraint: INIT=r	 : register_12_26
+  implementation constraint: INIT=r	 : register_13_25
+  implementation constraint: INIT=r	 : register_14_24
+  implementation constraint: INIT=r	 : register_15_23
+  implementation constraint: INIT=r	 : register_16_22
+  implementation constraint: INIT=r	 : register_17_21
+  implementation constraint: INIT=r	 : register_18_20
+  implementation constraint: INIT=r	 : register_19_19
+  implementation constraint: INIT=r	 : register_20_18
+  implementation constraint: INIT=r	 : register_21_17
+  implementation constraint: INIT=r	 : register_22_16
+  implementation constraint: INIT=r	 : register_23_15
+  implementation constraint: INIT=r	 : register_24_14
+  implementation constraint: INIT=r	 : register_25_13
+  implementation constraint: INIT=r	 : register_26_12
+  implementation constraint: INIT=r	 : register_27_11
+  implementation constraint: INIT=r	 : register_28_10
+  implementation constraint: INIT=r	 : register_29_9
+  implementation constraint: INIT=r	 : register_30_8
+  implementation constraint: INIT=r	 : register_0_8
+  implementation constraint: INIT=r	 : register_1_7
+  implementation constraint: INIT=r	 : register_2_6
+  implementation constraint: INIT=r	 : register_3_5
+  implementation constraint: INIT=r	 : register_4_4
+  implementation constraint: INIT=r	 : register_5_3
+  implementation constraint: INIT=r	 : register_6_2
+  implementation constraint: INIT=r	 : register_7_1
+  implementation constraint: INIT=r	 : register_8_0
+  implementation constraint: INIT=r	 : register_8_31
+  implementation constraint: INIT=r	 : register_9_30
+  implementation constraint: INIT=r	 : register_10_29
+  implementation constraint: INIT=r	 : register_11_28
+  implementation constraint: INIT=r	 : register_12_27
+  implementation constraint: INIT=r	 : register_13_26
+  implementation constraint: INIT=r	 : register_14_25
+  implementation constraint: INIT=r	 : register_15_24
+  implementation constraint: INIT=r	 : register_16_23
+  implementation constraint: INIT=r	 : register_17_22
+  implementation constraint: INIT=r	 : register_18_21
+  implementation constraint: INIT=r	 : register_19_20
+  implementation constraint: INIT=r	 : register_20_19
+  implementation constraint: INIT=r	 : register_21_18
+  implementation constraint: INIT=r	 : register_22_17
+  implementation constraint: INIT=r	 : register_23_16
+  implementation constraint: INIT=r	 : register_24_15
+  implementation constraint: INIT=r	 : register_25_14
+  implementation constraint: INIT=r	 : register_26_13
+  implementation constraint: INIT=r	 : register_27_12
+  implementation constraint: INIT=r	 : register_28_11
+  implementation constraint: INIT=r	 : register_29_10
+  implementation constraint: INIT=r	 : register_30_9
+  implementation constraint: INIT=r	 : register_0_10
+  implementation constraint: INIT=r	 : register_1_9
+  implementation constraint: INIT=r	 : register_2_8
+  implementation constraint: INIT=r	 : register_3_7
+  implementation constraint: INIT=r	 : register_4_6
+  implementation constraint: INIT=r	 : register_5_5
+  implementation constraint: INIT=r	 : register_6_4
+  implementation constraint: INIT=r	 : register_7_3
+  implementation constraint: INIT=r	 : register_8_2
+  implementation constraint: INIT=r	 : register_9_1
+  implementation constraint: INIT=r	 : register_10_0
+  implementation constraint: INIT=r	 : register_10_31
+  implementation constraint: INIT=r	 : register_11_30
+  implementation constraint: INIT=r	 : register_12_29
+  implementation constraint: INIT=r	 : register_13_28
+  implementation constraint: INIT=r	 : register_14_27
+  implementation constraint: INIT=r	 : register_15_26
+  implementation constraint: INIT=r	 : register_16_25
+  implementation constraint: INIT=r	 : register_17_24
+  implementation constraint: INIT=r	 : register_18_23
+  implementation constraint: INIT=r	 : register_19_22
+  implementation constraint: INIT=r	 : register_20_21
+  implementation constraint: INIT=r	 : register_21_20
+  implementation constraint: INIT=r	 : register_22_19
+  implementation constraint: INIT=r	 : register_23_18
+  implementation constraint: INIT=r	 : register_24_17
+  implementation constraint: INIT=r	 : register_25_16
+  implementation constraint: INIT=r	 : register_26_15
+  implementation constraint: INIT=r	 : register_27_14
+  implementation constraint: INIT=r	 : register_28_13
+  implementation constraint: INIT=r	 : register_29_12
+  implementation constraint: INIT=r	 : register_30_11
+  implementation constraint: INIT=r	 : register_0_11
+  implementation constraint: INIT=r	 : register_1_10
+  implementation constraint: INIT=r	 : register_2_9
+  implementation constraint: INIT=r	 : register_3_8
+  implementation constraint: INIT=r	 : register_4_7
+  implementation constraint: INIT=r	 : register_5_6
+  implementation constraint: INIT=r	 : register_6_5
+  implementation constraint: INIT=r	 : register_7_4
+  implementation constraint: INIT=r	 : register_8_3
+  implementation constraint: INIT=r	 : register_9_2
+  implementation constraint: INIT=r	 : register_10_1
+  implementation constraint: INIT=r	 : register_11_0
+  implementation constraint: INIT=r	 : register_11_31
+  implementation constraint: INIT=r	 : register_12_30
+  implementation constraint: INIT=r	 : register_13_29
+  implementation constraint: INIT=r	 : register_14_28
+  implementation constraint: INIT=r	 : register_15_27
+  implementation constraint: INIT=r	 : register_16_26
+  implementation constraint: INIT=r	 : register_17_25
+  implementation constraint: INIT=r	 : register_18_24
+  implementation constraint: INIT=r	 : register_19_23
+  implementation constraint: INIT=r	 : register_20_22
+  implementation constraint: INIT=r	 : register_21_21
+  implementation constraint: INIT=r	 : register_22_20
+  implementation constraint: INIT=r	 : register_23_19
+  implementation constraint: INIT=r	 : register_24_18
+  implementation constraint: INIT=r	 : register_25_17
+  implementation constraint: INIT=r	 : register_26_16
+  implementation constraint: INIT=r	 : register_27_15
+  implementation constraint: INIT=r	 : register_28_14
+  implementation constraint: INIT=r	 : register_29_13
+  implementation constraint: INIT=r	 : register_30_12
+  implementation constraint: INIT=r	 : register_0_12
+  implementation constraint: INIT=r	 : register_1_11
+  implementation constraint: INIT=r	 : register_2_10
+  implementation constraint: INIT=r	 : register_3_9
+  implementation constraint: INIT=r	 : register_4_8
+  implementation constraint: INIT=r	 : register_5_7
+  implementation constraint: INIT=r	 : register_6_6
+  implementation constraint: INIT=r	 : register_7_5
+  implementation constraint: INIT=r	 : register_8_4
+  implementation constraint: INIT=r	 : register_9_3
+  implementation constraint: INIT=r	 : register_10_2
+  implementation constraint: INIT=r	 : register_11_1
+  implementation constraint: INIT=r	 : register_12_0
+  implementation constraint: INIT=r	 : register_12_31
+  implementation constraint: INIT=r	 : register_13_30
+  implementation constraint: INIT=r	 : register_14_29
+  implementation constraint: INIT=r	 : register_15_28
+  implementation constraint: INIT=r	 : register_16_27
+  implementation constraint: INIT=r	 : register_17_26
+  implementation constraint: INIT=r	 : register_18_25
+  implementation constraint: INIT=r	 : register_19_24
+  implementation constraint: INIT=r	 : register_20_23
+  implementation constraint: INIT=r	 : register_21_22
+  implementation constraint: INIT=r	 : register_22_21
+  implementation constraint: INIT=r	 : register_23_20
+  implementation constraint: INIT=r	 : register_24_19
+  implementation constraint: INIT=r	 : register_25_18
+  implementation constraint: INIT=r	 : register_26_17
+  implementation constraint: INIT=r	 : register_27_16
+  implementation constraint: INIT=r	 : register_28_15
+  implementation constraint: INIT=r	 : register_29_14
+  implementation constraint: INIT=r	 : register_30_13
+  implementation constraint: INIT=r	 : register_0_13
+  implementation constraint: INIT=r	 : register_1_12
+  implementation constraint: INIT=r	 : register_2_11
+  implementation constraint: INIT=r	 : register_3_10
+  implementation constraint: INIT=r	 : register_4_9
+  implementation constraint: INIT=r	 : register_5_8
+  implementation constraint: INIT=r	 : register_6_7
+  implementation constraint: INIT=r	 : register_7_6
+  implementation constraint: INIT=r	 : register_8_5
+  implementation constraint: INIT=r	 : register_9_4
+  implementation constraint: INIT=r	 : register_10_3
+  implementation constraint: INIT=r	 : register_11_2
+  implementation constraint: INIT=r	 : register_12_1
+  implementation constraint: INIT=r	 : register_13_0
+  implementation constraint: INIT=r	 : register_13_31
+  implementation constraint: INIT=r	 : register_14_30
+  implementation constraint: INIT=r	 : register_15_29
+  implementation constraint: INIT=r	 : register_16_28
+  implementation constraint: INIT=r	 : register_17_27
+  implementation constraint: INIT=r	 : register_18_26
+  implementation constraint: INIT=r	 : register_19_25
+  implementation constraint: INIT=r	 : register_20_24
+  implementation constraint: INIT=r	 : register_21_23
+  implementation constraint: INIT=r	 : register_22_22
+  implementation constraint: INIT=r	 : register_23_21
+  implementation constraint: INIT=r	 : register_24_20
+  implementation constraint: INIT=r	 : register_25_19
+  implementation constraint: INIT=r	 : register_26_18
+  implementation constraint: INIT=r	 : register_27_17
+  implementation constraint: INIT=r	 : register_28_16
+  implementation constraint: INIT=r	 : register_29_15
+  implementation constraint: INIT=r	 : register_30_14
+  implementation constraint: INIT=r	 : register_0_14
+  implementation constraint: INIT=r	 : register_1_13
+  implementation constraint: INIT=r	 : register_2_12
+  implementation constraint: INIT=r	 : register_3_11
+  implementation constraint: INIT=r	 : register_4_10
+  implementation constraint: INIT=r	 : register_5_9
+  implementation constraint: INIT=r	 : register_6_8
+  implementation constraint: INIT=r	 : register_7_7
+  implementation constraint: INIT=r	 : register_8_6
+  implementation constraint: INIT=r	 : register_9_5
+  implementation constraint: INIT=r	 : register_10_4
+  implementation constraint: INIT=r	 : register_11_3
+  implementation constraint: INIT=r	 : register_12_2
+  implementation constraint: INIT=r	 : register_13_1
+  implementation constraint: INIT=r	 : register_14_0
+  implementation constraint: INIT=r	 : register_14_31
+  implementation constraint: INIT=r	 : register_15_30
+  implementation constraint: INIT=r	 : register_16_29
+  implementation constraint: INIT=r	 : register_17_28
+  implementation constraint: INIT=r	 : register_18_27
+  implementation constraint: INIT=r	 : register_19_26
+  implementation constraint: INIT=r	 : register_20_25
+  implementation constraint: INIT=r	 : register_21_24
+  implementation constraint: INIT=r	 : register_22_23
+  implementation constraint: INIT=r	 : register_23_22
+  implementation constraint: INIT=r	 : register_24_21
+  implementation constraint: INIT=r	 : register_25_20
+  implementation constraint: INIT=r	 : register_26_19
+  implementation constraint: INIT=r	 : register_27_18
+  implementation constraint: INIT=r	 : register_28_17
+  implementation constraint: INIT=r	 : register_29_16
+  implementation constraint: INIT=r	 : register_30_15
+  implementation constraint: INIT=r	 : register_0_15
+  implementation constraint: INIT=r	 : register_1_14
+  implementation constraint: INIT=r	 : register_2_13
+  implementation constraint: INIT=r	 : register_3_12
+  implementation constraint: INIT=r	 : register_4_11
+  implementation constraint: INIT=r	 : register_5_10
+  implementation constraint: INIT=r	 : register_6_9
+  implementation constraint: INIT=r	 : register_7_8
+  implementation constraint: INIT=r	 : register_8_7
+  implementation constraint: INIT=r	 : register_9_6
+  implementation constraint: INIT=r	 : register_10_5
+  implementation constraint: INIT=r	 : register_11_4
+  implementation constraint: INIT=r	 : register_12_3
+  implementation constraint: INIT=r	 : register_13_2
+  implementation constraint: INIT=r	 : register_14_1
+  implementation constraint: INIT=r	 : register_15_0
+  implementation constraint: INIT=r	 : register_15_31
+  implementation constraint: INIT=r	 : register_16_30
+  implementation constraint: INIT=r	 : register_17_29
+  implementation constraint: INIT=r	 : register_18_28
+  implementation constraint: INIT=r	 : register_19_27
+  implementation constraint: INIT=r	 : register_20_26
+  implementation constraint: INIT=r	 : register_21_25
+  implementation constraint: INIT=r	 : register_22_24
+  implementation constraint: INIT=r	 : register_23_23
+  implementation constraint: INIT=r	 : register_24_22
+  implementation constraint: INIT=r	 : register_25_21
+  implementation constraint: INIT=r	 : register_26_20
+  implementation constraint: INIT=r	 : register_27_19
+  implementation constraint: INIT=r	 : register_28_18
+  implementation constraint: INIT=r	 : register_29_17
+  implementation constraint: INIT=r	 : register_30_16
+  implementation constraint: INIT=r	 : register_0_16
+  implementation constraint: INIT=r	 : register_1_15
+  implementation constraint: INIT=r	 : register_2_14
+  implementation constraint: INIT=r	 : register_3_13
+  implementation constraint: INIT=r	 : register_4_12
+  implementation constraint: INIT=r	 : register_5_11
+  implementation constraint: INIT=r	 : register_6_10
+  implementation constraint: INIT=r	 : register_7_9
+  implementation constraint: INIT=r	 : register_8_8
+  implementation constraint: INIT=r	 : register_9_7
+  implementation constraint: INIT=r	 : register_10_6
+  implementation constraint: INIT=r	 : register_11_5
+  implementation constraint: INIT=r	 : register_12_4
+  implementation constraint: INIT=r	 : register_13_3
+  implementation constraint: INIT=r	 : register_14_2
+  implementation constraint: INIT=r	 : register_15_1
+  implementation constraint: INIT=r	 : register_16_0
+  implementation constraint: INIT=r	 : register_16_31
+  implementation constraint: INIT=r	 : register_17_30
+  implementation constraint: INIT=r	 : register_18_29
+  implementation constraint: INIT=r	 : register_19_28
+  implementation constraint: INIT=r	 : register_20_27
+  implementation constraint: INIT=r	 : register_21_26
+  implementation constraint: INIT=r	 : register_22_25
+  implementation constraint: INIT=r	 : register_23_24
+  implementation constraint: INIT=r	 : register_24_23
+  implementation constraint: INIT=r	 : register_25_22
+  implementation constraint: INIT=r	 : register_26_21
+  implementation constraint: INIT=r	 : register_27_20
+  implementation constraint: INIT=r	 : register_28_19
+  implementation constraint: INIT=r	 : register_29_18
+  implementation constraint: INIT=r	 : register_30_17
+  implementation constraint: INIT=r	 : register_0_17
+  implementation constraint: INIT=r	 : register_1_16
+  implementation constraint: INIT=r	 : register_2_15
+  implementation constraint: INIT=r	 : register_3_14
+  implementation constraint: INIT=r	 : register_4_13
+  implementation constraint: INIT=r	 : register_5_12
+  implementation constraint: INIT=r	 : register_6_11
+  implementation constraint: INIT=r	 : register_7_10
+  implementation constraint: INIT=r	 : register_8_9
+  implementation constraint: INIT=r	 : register_9_8
+  implementation constraint: INIT=r	 : register_10_7
+  implementation constraint: INIT=r	 : register_11_6
+  implementation constraint: INIT=r	 : register_12_5
+  implementation constraint: INIT=r	 : register_13_4
+  implementation constraint: INIT=r	 : register_14_3
+  implementation constraint: INIT=r	 : register_15_2
+  implementation constraint: INIT=r	 : register_16_1
+  implementation constraint: INIT=r	 : register_17_0
+  implementation constraint: INIT=r	 : register_17_31
+  implementation constraint: INIT=r	 : register_18_30
+  implementation constraint: INIT=r	 : register_19_29
+  implementation constraint: INIT=r	 : register_20_28
+  implementation constraint: INIT=r	 : register_21_27
+  implementation constraint: INIT=r	 : register_22_26
+  implementation constraint: INIT=r	 : register_23_25
+  implementation constraint: INIT=r	 : register_24_24
+  implementation constraint: INIT=r	 : register_25_23
+  implementation constraint: INIT=r	 : register_26_22
+  implementation constraint: INIT=r	 : register_27_21
+  implementation constraint: INIT=r	 : register_28_20
+  implementation constraint: INIT=r	 : register_29_19
+  implementation constraint: INIT=r	 : register_30_18
+  implementation constraint: INIT=r	 : register_0_18
+  implementation constraint: INIT=r	 : register_1_17
+  implementation constraint: INIT=r	 : register_2_16
+  implementation constraint: INIT=r	 : register_3_15
+  implementation constraint: INIT=r	 : register_4_14
+  implementation constraint: INIT=r	 : register_5_13
+  implementation constraint: INIT=r	 : register_6_12
+  implementation constraint: INIT=r	 : register_7_11
+  implementation constraint: INIT=r	 : register_8_10
+  implementation constraint: INIT=r	 : register_9_9
+  implementation constraint: INIT=r	 : register_10_8
+  implementation constraint: INIT=r	 : register_11_7
+  implementation constraint: INIT=r	 : register_12_6
+  implementation constraint: INIT=r	 : register_13_5
+  implementation constraint: INIT=r	 : register_14_4
+  implementation constraint: INIT=r	 : register_15_3
+  implementation constraint: INIT=r	 : register_16_2
+  implementation constraint: INIT=r	 : register_17_1
+  implementation constraint: INIT=r	 : register_18_0
+  implementation constraint: INIT=r	 : register_18_31
+  implementation constraint: INIT=r	 : register_19_30
+  implementation constraint: INIT=r	 : register_20_29
+  implementation constraint: INIT=r	 : register_21_28
+  implementation constraint: INIT=r	 : register_22_27
+  implementation constraint: INIT=r	 : register_23_26
+  implementation constraint: INIT=r	 : register_24_25
+  implementation constraint: INIT=r	 : register_25_24
+  implementation constraint: INIT=r	 : register_26_23
+  implementation constraint: INIT=r	 : register_27_22
+  implementation constraint: INIT=r	 : register_28_21
+  implementation constraint: INIT=r	 : register_29_20
+  implementation constraint: INIT=r	 : register_30_19
+  implementation constraint: INIT=r	 : register_0_19
+  implementation constraint: INIT=r	 : register_1_18
+  implementation constraint: INIT=r	 : register_2_17
+  implementation constraint: INIT=r	 : register_3_16
+  implementation constraint: INIT=r	 : register_4_15
+  implementation constraint: INIT=r	 : register_5_14
+  implementation constraint: INIT=r	 : register_6_13
+  implementation constraint: INIT=r	 : register_7_12
+  implementation constraint: INIT=r	 : register_8_11
+  implementation constraint: INIT=r	 : register_9_10
+  implementation constraint: INIT=r	 : register_10_9
+  implementation constraint: INIT=r	 : register_11_8
+  implementation constraint: INIT=r	 : register_12_7
+  implementation constraint: INIT=r	 : register_13_6
+  implementation constraint: INIT=r	 : register_14_5
+  implementation constraint: INIT=r	 : register_15_4
+  implementation constraint: INIT=r	 : register_16_3
+  implementation constraint: INIT=r	 : register_17_2
+  implementation constraint: INIT=r	 : register_18_1
+  implementation constraint: INIT=r	 : register_19_0
+  implementation constraint: INIT=r	 : register_19_31
+  implementation constraint: INIT=r	 : register_20_30
+  implementation constraint: INIT=r	 : register_21_29
+  implementation constraint: INIT=r	 : register_22_28
+  implementation constraint: INIT=r	 : register_23_27
+  implementation constraint: INIT=r	 : register_24_26
+  implementation constraint: INIT=r	 : register_25_25
+  implementation constraint: INIT=r	 : register_26_24
+  implementation constraint: INIT=r	 : register_27_23
+  implementation constraint: INIT=r	 : register_28_22
+  implementation constraint: INIT=r	 : register_29_21
+  implementation constraint: INIT=r	 : register_30_20
+  implementation constraint: INIT=r	 : register_0_21
+  implementation constraint: INIT=r	 : register_1_20
+  implementation constraint: INIT=r	 : register_2_19
+  implementation constraint: INIT=r	 : register_3_18
+  implementation constraint: INIT=r	 : register_4_17
+  implementation constraint: INIT=r	 : register_5_16
+  implementation constraint: INIT=r	 : register_6_15
+  implementation constraint: INIT=r	 : register_7_14
+  implementation constraint: INIT=r	 : register_8_13
+  implementation constraint: INIT=r	 : register_9_12
+  implementation constraint: INIT=r	 : register_10_11
+  implementation constraint: INIT=r	 : register_11_10
+  implementation constraint: INIT=r	 : register_12_9
+  implementation constraint: INIT=r	 : register_13_8
+  implementation constraint: INIT=r	 : register_14_7
+  implementation constraint: INIT=r	 : register_15_6
+  implementation constraint: INIT=r	 : register_16_5
+  implementation constraint: INIT=r	 : register_17_4
+  implementation constraint: INIT=r	 : register_18_3
+  implementation constraint: INIT=r	 : register_19_2
+  implementation constraint: INIT=r	 : register_20_1
+  implementation constraint: INIT=r	 : register_21_0
+  implementation constraint: INIT=r	 : register_21_31
+  implementation constraint: INIT=r	 : register_22_30
+  implementation constraint: INIT=r	 : register_23_29
+  implementation constraint: INIT=r	 : register_24_28
+  implementation constraint: INIT=r	 : register_25_27
+  implementation constraint: INIT=r	 : register_26_26
+  implementation constraint: INIT=r	 : register_27_25
+  implementation constraint: INIT=r	 : register_28_24
+  implementation constraint: INIT=r	 : register_29_23
+  implementation constraint: INIT=r	 : register_30_22
+  implementation constraint: INIT=r	 : register_0_22
+  implementation constraint: INIT=r	 : register_1_21
+  implementation constraint: INIT=r	 : register_2_20
+  implementation constraint: INIT=r	 : register_3_19
+  implementation constraint: INIT=r	 : register_4_18
+  implementation constraint: INIT=r	 : register_5_17
+  implementation constraint: INIT=r	 : register_6_16
+  implementation constraint: INIT=r	 : register_7_15
+  implementation constraint: INIT=r	 : register_8_14
+  implementation constraint: INIT=r	 : register_9_13
+  implementation constraint: INIT=r	 : register_10_12
+  implementation constraint: INIT=r	 : register_11_11
+  implementation constraint: INIT=r	 : register_12_10
+  implementation constraint: INIT=r	 : register_13_9
+  implementation constraint: INIT=r	 : register_14_8
+  implementation constraint: INIT=r	 : register_15_7
+  implementation constraint: INIT=r	 : register_16_6
+  implementation constraint: INIT=r	 : register_17_5
+  implementation constraint: INIT=r	 : register_18_4
+  implementation constraint: INIT=r	 : register_19_3
+  implementation constraint: INIT=r	 : register_20_2
+  implementation constraint: INIT=r	 : register_21_1
+  implementation constraint: INIT=r	 : register_22_0
+  implementation constraint: INIT=r	 : register_22_31
+  implementation constraint: INIT=r	 : register_23_30
+  implementation constraint: INIT=r	 : register_24_29
+  implementation constraint: INIT=r	 : register_25_28
+  implementation constraint: INIT=r	 : register_26_27
+  implementation constraint: INIT=r	 : register_27_26
+  implementation constraint: INIT=r	 : register_28_25
+  implementation constraint: INIT=r	 : register_29_24
+  implementation constraint: INIT=r	 : register_30_23
+  implementation constraint: INIT=r	 : register_0_23
+  implementation constraint: INIT=r	 : register_1_22
+  implementation constraint: INIT=r	 : register_2_21
+  implementation constraint: INIT=r	 : register_3_20
+  implementation constraint: INIT=r	 : register_4_19
+  implementation constraint: INIT=r	 : register_5_18
+  implementation constraint: INIT=r	 : register_6_17
+  implementation constraint: INIT=r	 : register_7_16
+  implementation constraint: INIT=r	 : register_8_15
+  implementation constraint: INIT=r	 : register_9_14
+  implementation constraint: INIT=r	 : register_10_13
+  implementation constraint: INIT=r	 : register_11_12
+  implementation constraint: INIT=r	 : register_12_11
+  implementation constraint: INIT=r	 : register_13_10
+  implementation constraint: INIT=r	 : register_14_9
+  implementation constraint: INIT=r	 : register_15_8
+  implementation constraint: INIT=r	 : register_16_7
+  implementation constraint: INIT=r	 : register_17_6
+  implementation constraint: INIT=r	 : register_18_5
+  implementation constraint: INIT=r	 : register_19_4
+  implementation constraint: INIT=r	 : register_20_3
+  implementation constraint: INIT=r	 : register_21_2
+  implementation constraint: INIT=r	 : register_22_1
+  implementation constraint: INIT=r	 : register_23_0
+  implementation constraint: INIT=r	 : register_23_31
+  implementation constraint: INIT=r	 : register_24_30
+  implementation constraint: INIT=r	 : register_25_29
+  implementation constraint: INIT=r	 : register_26_28
+  implementation constraint: INIT=r	 : register_27_27
+  implementation constraint: INIT=r	 : register_28_26
+  implementation constraint: INIT=r	 : register_29_25
+  implementation constraint: INIT=r	 : register_30_24
+  implementation constraint: INIT=r	 : register_0_24
+  implementation constraint: INIT=r	 : register_1_23
+  implementation constraint: INIT=r	 : register_2_22
+  implementation constraint: INIT=r	 : register_3_21
+  implementation constraint: INIT=r	 : register_4_20
+  implementation constraint: INIT=r	 : register_5_19
+  implementation constraint: INIT=r	 : register_6_18
+  implementation constraint: INIT=r	 : register_7_17
+  implementation constraint: INIT=r	 : register_8_16
+  implementation constraint: INIT=r	 : register_9_15
+  implementation constraint: INIT=r	 : register_10_14
+  implementation constraint: INIT=r	 : register_11_13
+  implementation constraint: INIT=r	 : register_12_12
+  implementation constraint: INIT=r	 : register_13_11
+  implementation constraint: INIT=r	 : register_14_10
+  implementation constraint: INIT=r	 : register_15_9
+  implementation constraint: INIT=r	 : register_16_8
+  implementation constraint: INIT=r	 : register_17_7
+  implementation constraint: INIT=r	 : register_18_6
+  implementation constraint: INIT=r	 : register_19_5
+  implementation constraint: INIT=r	 : register_20_4
+  implementation constraint: INIT=r	 : register_21_3
+  implementation constraint: INIT=r	 : register_22_2
+  implementation constraint: INIT=r	 : register_23_1
+  implementation constraint: INIT=r	 : register_24_0
+  implementation constraint: INIT=r	 : register_24_31
+  implementation constraint: INIT=r	 : register_25_30
+  implementation constraint: INIT=r	 : register_26_29
+  implementation constraint: INIT=r	 : register_27_28
+  implementation constraint: INIT=r	 : register_28_27
+  implementation constraint: INIT=r	 : register_29_26
+  implementation constraint: INIT=r	 : register_30_25
+  implementation constraint: INIT=r	 : register_0_25
+  implementation constraint: INIT=r	 : register_1_24
+  implementation constraint: INIT=r	 : register_2_23
+  implementation constraint: INIT=r	 : register_3_22
+  implementation constraint: INIT=r	 : register_4_21
+  implementation constraint: INIT=r	 : register_5_20
+  implementation constraint: INIT=r	 : register_6_19
+  implementation constraint: INIT=r	 : register_7_18
+  implementation constraint: INIT=r	 : register_8_17
+  implementation constraint: INIT=r	 : register_9_16
+  implementation constraint: INIT=r	 : register_10_15
+  implementation constraint: INIT=r	 : register_11_14
+  implementation constraint: INIT=r	 : register_12_13
+  implementation constraint: INIT=r	 : register_13_12
+  implementation constraint: INIT=r	 : register_14_11
+  implementation constraint: INIT=r	 : register_15_10
+  implementation constraint: INIT=r	 : register_16_9
+  implementation constraint: INIT=r	 : register_17_8
+  implementation constraint: INIT=r	 : register_18_7
+  implementation constraint: INIT=r	 : register_19_6
+  implementation constraint: INIT=r	 : register_20_5
+  implementation constraint: INIT=r	 : register_21_4
+  implementation constraint: INIT=r	 : register_22_3
+  implementation constraint: INIT=r	 : register_23_2
+  implementation constraint: INIT=r	 : register_24_1
+  implementation constraint: INIT=r	 : register_25_0
+  implementation constraint: INIT=r	 : register_25_31
+  implementation constraint: INIT=r	 : register_26_30
+  implementation constraint: INIT=r	 : register_27_29
+  implementation constraint: INIT=r	 : register_28_28
+  implementation constraint: INIT=r	 : register_29_27
+  implementation constraint: INIT=r	 : register_30_26
+  implementation constraint: INIT=r	 : register_0_26
+  implementation constraint: INIT=r	 : register_1_25
+  implementation constraint: INIT=r	 : register_2_24
+  implementation constraint: INIT=r	 : register_3_23
+  implementation constraint: INIT=r	 : register_4_22
+  implementation constraint: INIT=r	 : register_5_21
+  implementation constraint: INIT=r	 : register_6_20
+  implementation constraint: INIT=r	 : register_7_19
+  implementation constraint: INIT=r	 : register_8_18
+  implementation constraint: INIT=r	 : register_9_17
+  implementation constraint: INIT=r	 : register_10_16
+  implementation constraint: INIT=r	 : register_11_15
+  implementation constraint: INIT=r	 : register_12_14
+  implementation constraint: INIT=r	 : register_13_13
+  implementation constraint: INIT=r	 : register_14_12
+  implementation constraint: INIT=r	 : register_15_11
+  implementation constraint: INIT=r	 : register_16_10
+  implementation constraint: INIT=r	 : register_17_9
+  implementation constraint: INIT=r	 : register_18_8
+  implementation constraint: INIT=r	 : register_19_7
+  implementation constraint: INIT=r	 : register_20_6
+  implementation constraint: INIT=r	 : register_21_5
+  implementation constraint: INIT=r	 : register_22_4
+  implementation constraint: INIT=r	 : register_23_3
+  implementation constraint: INIT=r	 : register_24_2
+  implementation constraint: INIT=r	 : register_25_1
+  implementation constraint: INIT=r	 : register_26_0
+  implementation constraint: INIT=r	 : register_26_31
+  implementation constraint: INIT=r	 : register_27_30
+  implementation constraint: INIT=r	 : register_28_29
+  implementation constraint: INIT=r	 : register_29_28
+  implementation constraint: INIT=r	 : register_30_27
+  implementation constraint: INIT=r	 : register_0_27
+  implementation constraint: INIT=r	 : register_1_26
+  implementation constraint: INIT=r	 : register_2_25
+  implementation constraint: INIT=r	 : register_3_24
+  implementation constraint: INIT=r	 : register_4_23
+  implementation constraint: INIT=r	 : register_5_22
+  implementation constraint: INIT=r	 : register_6_21
+  implementation constraint: INIT=r	 : register_7_20
+  implementation constraint: INIT=r	 : register_8_19
+  implementation constraint: INIT=r	 : register_9_18
+  implementation constraint: INIT=r	 : register_10_17
+  implementation constraint: INIT=r	 : register_11_16
+  implementation constraint: INIT=r	 : register_12_15
+  implementation constraint: INIT=r	 : register_13_14
+  implementation constraint: INIT=r	 : register_14_13
+  implementation constraint: INIT=r	 : register_15_12
+  implementation constraint: INIT=r	 : register_16_11
+  implementation constraint: INIT=r	 : register_17_10
+  implementation constraint: INIT=r	 : register_18_9
+  implementation constraint: INIT=r	 : register_19_8
+  implementation constraint: INIT=r	 : register_20_7
+  implementation constraint: INIT=r	 : register_21_6
+  implementation constraint: INIT=r	 : register_22_5
+  implementation constraint: INIT=r	 : register_23_4
+  implementation constraint: INIT=r	 : register_24_3
+  implementation constraint: INIT=r	 : register_25_2
+  implementation constraint: INIT=r	 : register_26_1
+  implementation constraint: INIT=r	 : register_27_0
+  implementation constraint: INIT=r	 : register_27_31
+  implementation constraint: INIT=r	 : register_28_30
+  implementation constraint: INIT=r	 : register_29_29
+  implementation constraint: INIT=r	 : register_30_28
+  implementation constraint: INIT=r	 : register_0_28
+  implementation constraint: INIT=r	 : register_1_27
+  implementation constraint: INIT=r	 : register_2_26
+  implementation constraint: INIT=r	 : register_3_25
+  implementation constraint: INIT=r	 : register_4_24
+  implementation constraint: INIT=r	 : register_5_23
+  implementation constraint: INIT=r	 : register_6_22
+  implementation constraint: INIT=r	 : register_7_21
+  implementation constraint: INIT=r	 : register_8_20
+  implementation constraint: INIT=r	 : register_9_19
+  implementation constraint: INIT=r	 : register_10_18
+  implementation constraint: INIT=r	 : register_11_17
+  implementation constraint: INIT=r	 : register_12_16
+  implementation constraint: INIT=r	 : register_13_15
+  implementation constraint: INIT=r	 : register_14_14
+  implementation constraint: INIT=r	 : register_15_13
+  implementation constraint: INIT=r	 : register_16_12
+  implementation constraint: INIT=r	 : register_17_11
+  implementation constraint: INIT=r	 : register_18_10
+  implementation constraint: INIT=r	 : register_19_9
+  implementation constraint: INIT=r	 : register_20_8
+  implementation constraint: INIT=r	 : register_21_7
+  implementation constraint: INIT=r	 : register_22_6
+  implementation constraint: INIT=r	 : register_23_5
+  implementation constraint: INIT=r	 : register_24_4
+  implementation constraint: INIT=r	 : register_25_3
+  implementation constraint: INIT=r	 : register_26_2
+  implementation constraint: INIT=r	 : register_27_1
+  implementation constraint: INIT=r	 : register_28_0
+  implementation constraint: INIT=r	 : register_28_31
+  implementation constraint: INIT=r	 : register_29_30
+  implementation constraint: INIT=r	 : register_30_29
+  implementation constraint: INIT=r	 : register_0_29
+  implementation constraint: INIT=r	 : register_1_28
+  implementation constraint: INIT=r	 : register_2_27
+  implementation constraint: INIT=r	 : register_3_26
+  implementation constraint: INIT=r	 : register_4_25
+  implementation constraint: INIT=r	 : register_5_24
+  implementation constraint: INIT=r	 : register_6_23
+  implementation constraint: INIT=r	 : register_7_22
+  implementation constraint: INIT=r	 : register_8_21
+  implementation constraint: INIT=r	 : register_9_20
+  implementation constraint: INIT=r	 : register_10_19
+  implementation constraint: INIT=r	 : register_11_18
+  implementation constraint: INIT=r	 : register_12_17
+  implementation constraint: INIT=r	 : register_13_16
+  implementation constraint: INIT=r	 : register_14_15
+  implementation constraint: INIT=r	 : register_15_14
+  implementation constraint: INIT=r	 : register_16_13
+  implementation constraint: INIT=r	 : register_17_12
+  implementation constraint: INIT=r	 : register_18_11
+  implementation constraint: INIT=r	 : register_19_10
+  implementation constraint: INIT=r	 : register_20_9
+  implementation constraint: INIT=r	 : register_21_8
+  implementation constraint: INIT=r	 : register_22_7
+  implementation constraint: INIT=r	 : register_23_6
+  implementation constraint: INIT=r	 : register_24_5
+  implementation constraint: INIT=r	 : register_25_4
+  implementation constraint: INIT=r	 : register_26_3
+  implementation constraint: INIT=r	 : register_27_2
+  implementation constraint: INIT=r	 : register_28_1
+  implementation constraint: INIT=r	 : register_29_0
+  implementation constraint: INIT=r	 : register_29_31
+  implementation constraint: INIT=r	 : register_30_30
+  implementation constraint: INIT=r	 : register_0_30
+  implementation constraint: INIT=r	 : register_1_29
+  implementation constraint: INIT=r	 : register_2_28
+  implementation constraint: INIT=r	 : register_3_27
+  implementation constraint: INIT=r	 : register_4_26
+  implementation constraint: INIT=r	 : register_5_25
+  implementation constraint: INIT=r	 : register_6_24
+  implementation constraint: INIT=r	 : register_7_23
+  implementation constraint: INIT=r	 : register_8_22
+  implementation constraint: INIT=r	 : register_9_21
+  implementation constraint: INIT=r	 : register_10_20
+  implementation constraint: INIT=r	 : register_11_19
+  implementation constraint: INIT=r	 : register_12_18
+  implementation constraint: INIT=r	 : register_13_17
+  implementation constraint: INIT=r	 : register_14_16
+  implementation constraint: INIT=r	 : register_15_15
+  implementation constraint: INIT=r	 : register_16_14
+  implementation constraint: INIT=r	 : register_17_13
+  implementation constraint: INIT=r	 : register_18_12
+  implementation constraint: INIT=r	 : register_19_11
+  implementation constraint: INIT=r	 : register_20_10
+  implementation constraint: INIT=r	 : register_21_9
+  implementation constraint: INIT=r	 : register_22_8
+  implementation constraint: INIT=r	 : register_23_7
+  implementation constraint: INIT=r	 : register_24_6
+  implementation constraint: INIT=r	 : register_25_5
+  implementation constraint: INIT=r	 : register_26_4
+  implementation constraint: INIT=r	 : register_27_3
+  implementation constraint: INIT=r	 : register_28_2
+  implementation constraint: INIT=r	 : register_29_1
+  implementation constraint: INIT=r	 : register_30_0
+  implementation constraint: INIT=r	 : register_30_31
+  implementation constraint: INIT=r	 : register_0_0
+  implementation constraint: INIT=r	 : register_0_31
+  implementation constraint: INIT=r	 : register_1_30
+  implementation constraint: INIT=r	 : register_2_29
+  implementation constraint: INIT=r	 : register_3_28
+  implementation constraint: INIT=r	 : register_4_27
+  implementation constraint: INIT=r	 : register_5_26
+  implementation constraint: INIT=r	 : register_6_25
+  implementation constraint: INIT=r	 : register_7_24
+  implementation constraint: INIT=r	 : register_8_23
+  implementation constraint: INIT=r	 : register_9_22
+  implementation constraint: INIT=r	 : register_10_21
+  implementation constraint: INIT=r	 : register_11_20
+  implementation constraint: INIT=r	 : register_12_19
+  implementation constraint: INIT=r	 : register_13_18
+  implementation constraint: INIT=r	 : register_14_17
+  implementation constraint: INIT=r	 : register_15_16
+  implementation constraint: INIT=r	 : register_16_15
+  implementation constraint: INIT=r	 : register_17_14
+  implementation constraint: INIT=r	 : register_18_13
+  implementation constraint: INIT=r	 : register_19_12
+  implementation constraint: INIT=r	 : register_20_11
+  implementation constraint: INIT=r	 : register_21_10
+  implementation constraint: INIT=r	 : register_22_9
+  implementation constraint: INIT=r	 : register_23_8
+  implementation constraint: INIT=r	 : register_24_7
+  implementation constraint: INIT=r	 : register_25_6
+  implementation constraint: INIT=r	 : register_26_5
+  implementation constraint: INIT=r	 : register_27_4
+  implementation constraint: INIT=r	 : register_28_3
+  implementation constraint: INIT=r	 : register_29_2
+  implementation constraint: INIT=r	 : register_30_1
+  implementation constraint: INIT=r	 : register_0_1
+  implementation constraint: INIT=r	 : register_1_0
+  implementation constraint: INIT=r	 : register_1_31
+  implementation constraint: INIT=r	 : register_2_30
+  implementation constraint: INIT=r	 : register_3_29
+  implementation constraint: INIT=r	 : register_4_28
+  implementation constraint: INIT=r	 : register_5_27
+  implementation constraint: INIT=r	 : register_6_26
+  implementation constraint: INIT=r	 : register_7_25
+  implementation constraint: INIT=r	 : register_8_24
+  implementation constraint: INIT=r	 : register_9_23
+  implementation constraint: INIT=r	 : register_10_22
+  implementation constraint: INIT=r	 : register_11_21
+  implementation constraint: INIT=r	 : register_12_20
+  implementation constraint: INIT=r	 : register_13_19
+  implementation constraint: INIT=r	 : register_14_18
+  implementation constraint: INIT=r	 : register_15_17
+  implementation constraint: INIT=r	 : register_16_16
+  implementation constraint: INIT=r	 : register_17_15
+  implementation constraint: INIT=r	 : register_18_14
+  implementation constraint: INIT=r	 : register_19_13
+  implementation constraint: INIT=r	 : register_20_12
+  implementation constraint: INIT=r	 : register_21_11
+  implementation constraint: INIT=r	 : register_22_10
+  implementation constraint: INIT=r	 : register_23_9
+  implementation constraint: INIT=r	 : register_24_8
+  implementation constraint: INIT=r	 : register_25_7
+  implementation constraint: INIT=r	 : register_26_6
+  implementation constraint: INIT=r	 : register_27_5
+  implementation constraint: INIT=r	 : register_28_4
+  implementation constraint: INIT=r	 : register_29_3
+  implementation constraint: INIT=r	 : register_30_2
+  implementation constraint: INIT=r	 : register_0_2
+  implementation constraint: INIT=r	 : register_1_1
+  implementation constraint: INIT=r	 : register_2_0
+  implementation constraint: INIT=r	 : register_2_31
+  implementation constraint: INIT=r	 : register_3_30
+  implementation constraint: INIT=r	 : register_4_29
+  implementation constraint: INIT=r	 : register_5_28
+  implementation constraint: INIT=r	 : register_6_27
+  implementation constraint: INIT=r	 : register_7_26
+  implementation constraint: INIT=r	 : register_8_25
+  implementation constraint: INIT=r	 : register_9_24
+  implementation constraint: INIT=r	 : register_10_23
+  implementation constraint: INIT=r	 : register_11_22
+  implementation constraint: INIT=r	 : register_12_21
+  implementation constraint: INIT=r	 : register_13_20
+  implementation constraint: INIT=r	 : register_14_19
+  implementation constraint: INIT=r	 : register_15_18
+  implementation constraint: INIT=r	 : register_16_17
+  implementation constraint: INIT=r	 : register_17_16
+  implementation constraint: INIT=r	 : register_18_15
+  implementation constraint: INIT=r	 : register_19_14
+  implementation constraint: INIT=r	 : register_20_13
+  implementation constraint: INIT=r	 : register_21_12
+  implementation constraint: INIT=r	 : register_22_11
+  implementation constraint: INIT=r	 : register_23_10
+  implementation constraint: INIT=r	 : register_24_9
+  implementation constraint: INIT=r	 : register_25_8
+  implementation constraint: INIT=r	 : register_26_7
+  implementation constraint: INIT=r	 : register_27_6
+  implementation constraint: INIT=r	 : register_28_5
+  implementation constraint: INIT=r	 : register_29_4
+  implementation constraint: INIT=r	 : register_30_3
+  implementation constraint: INIT=r	 : register_0_3
+  implementation constraint: INIT=r	 : register_1_2
+  implementation constraint: INIT=r	 : register_2_1
+  implementation constraint: INIT=r	 : register_3_0
+  implementation constraint: INIT=r	 : register_3_31
+  implementation constraint: INIT=r	 : register_4_30
+  implementation constraint: INIT=r	 : register_5_29
+  implementation constraint: INIT=r	 : register_6_28
+  implementation constraint: INIT=r	 : register_7_27
+  implementation constraint: INIT=r	 : register_8_26
+  implementation constraint: INIT=r	 : register_9_25
+  implementation constraint: INIT=r	 : register_10_24
+  implementation constraint: INIT=r	 : register_11_23
+  implementation constraint: INIT=r	 : register_12_22
+  implementation constraint: INIT=r	 : register_13_21
+  implementation constraint: INIT=r	 : register_14_20
+  implementation constraint: INIT=r	 : register_15_19
+  implementation constraint: INIT=r	 : register_16_18
+  implementation constraint: INIT=r	 : register_17_17
+  implementation constraint: INIT=r	 : register_18_16
+  implementation constraint: INIT=r	 : register_19_15
+  implementation constraint: INIT=r	 : register_20_14
+  implementation constraint: INIT=r	 : register_21_13
+  implementation constraint: INIT=r	 : register_22_12
+  implementation constraint: INIT=r	 : register_23_11
+  implementation constraint: INIT=r	 : register_24_10
+  implementation constraint: INIT=r	 : register_25_9
+  implementation constraint: INIT=r	 : register_26_8
+  implementation constraint: INIT=r	 : register_27_7
+  implementation constraint: INIT=r	 : register_28_6
+  implementation constraint: INIT=r	 : register_29_5
+  implementation constraint: INIT=r	 : register_30_4
+  implementation constraint: INIT=r	 : register_0_4
+  implementation constraint: INIT=r	 : register_1_3
+  implementation constraint: INIT=r	 : register_2_2
+  implementation constraint: INIT=r	 : register_3_1
+  implementation constraint: INIT=r	 : register_4_0
+  implementation constraint: INIT=r	 : register_4_31
+  implementation constraint: INIT=r	 : register_5_30
+  implementation constraint: INIT=r	 : register_6_29
+  implementation constraint: INIT=r	 : register_7_28
+  implementation constraint: INIT=r	 : register_8_27
+  implementation constraint: INIT=r	 : register_9_26
+  implementation constraint: INIT=r	 : register_10_25
+  implementation constraint: INIT=r	 : register_11_24
+  implementation constraint: INIT=r	 : register_12_23
+  implementation constraint: INIT=r	 : register_13_22
+  implementation constraint: INIT=r	 : register_14_21
+  implementation constraint: INIT=r	 : register_15_20
+  implementation constraint: INIT=r	 : register_16_19
+  implementation constraint: INIT=r	 : register_17_18
+  implementation constraint: INIT=r	 : register_18_17
+  implementation constraint: INIT=r	 : register_19_16
+  implementation constraint: INIT=r	 : register_20_15
+  implementation constraint: INIT=r	 : register_21_14
+  implementation constraint: INIT=r	 : register_22_13
+  implementation constraint: INIT=r	 : register_23_12
+  implementation constraint: INIT=r	 : register_24_11
+  implementation constraint: INIT=r	 : register_25_10
+  implementation constraint: INIT=r	 : register_26_9
+  implementation constraint: INIT=r	 : register_27_8
+  implementation constraint: INIT=r	 : register_28_7
+  implementation constraint: INIT=r	 : register_29_6
+  implementation constraint: INIT=r	 : register_30_5
+  implementation constraint: INIT=r	 : register_0_5
+  implementation constraint: INIT=r	 : register_1_4
+  implementation constraint: INIT=r	 : register_2_3
+  implementation constraint: INIT=r	 : register_3_2
+  implementation constraint: INIT=r	 : register_4_1
+  implementation constraint: INIT=r	 : register_5_0
+  implementation constraint: INIT=r	 : register_5_31
+  implementation constraint: INIT=r	 : register_6_30
+  implementation constraint: INIT=r	 : register_7_29
+  implementation constraint: INIT=r	 : register_8_28
+  implementation constraint: INIT=r	 : register_9_27
+  implementation constraint: INIT=r	 : register_10_26
+  implementation constraint: INIT=r	 : register_11_25
+  implementation constraint: INIT=r	 : register_12_24
+  implementation constraint: INIT=r	 : register_13_23
+  implementation constraint: INIT=r	 : register_14_22
+  implementation constraint: INIT=r	 : register_15_21
+  implementation constraint: INIT=r	 : register_16_20
+  implementation constraint: INIT=r	 : register_17_19
+  implementation constraint: INIT=r	 : register_18_18
+  implementation constraint: INIT=r	 : register_19_17
+  implementation constraint: INIT=r	 : register_20_16
+  implementation constraint: INIT=r	 : register_21_15
+  implementation constraint: INIT=r	 : register_22_14
+  implementation constraint: INIT=r	 : register_23_13
+  implementation constraint: INIT=r	 : register_24_12
+  implementation constraint: INIT=r	 : register_25_11
+  implementation constraint: INIT=r	 : register_26_10
+  implementation constraint: INIT=r	 : register_27_9
+  implementation constraint: INIT=r	 : register_28_8
+  implementation constraint: INIT=r	 : register_29_7
+  implementation constraint: INIT=r	 : register_30_6
+  implementation constraint: INIT=r	 : register_0_6
+  implementation constraint: INIT=r	 : register_1_5
+  implementation constraint: INIT=r	 : register_2_4
+  implementation constraint: INIT=r	 : register_3_3
+  implementation constraint: INIT=r	 : register_4_2
+  implementation constraint: INIT=r	 : register_5_1
+  implementation constraint: INIT=r	 : register_6_0
+  implementation constraint: INIT=r	 : register_6_31
+  implementation constraint: INIT=r	 : register_7_30
+  implementation constraint: INIT=r	 : register_8_29
+  implementation constraint: INIT=r	 : register_9_28
+  implementation constraint: INIT=r	 : register_10_27
+  implementation constraint: INIT=r	 : register_11_26
+  implementation constraint: INIT=r	 : register_12_25
+  implementation constraint: INIT=r	 : register_13_24
+  implementation constraint: INIT=r	 : register_14_23
+  implementation constraint: INIT=r	 : register_15_22
+  implementation constraint: INIT=r	 : register_16_21
+  implementation constraint: INIT=r	 : register_17_20
+  implementation constraint: INIT=r	 : register_18_19
+  implementation constraint: INIT=r	 : register_19_18
+  implementation constraint: INIT=r	 : register_20_17
+  implementation constraint: INIT=r	 : register_21_16
+  implementation constraint: INIT=r	 : register_22_15
+  implementation constraint: INIT=r	 : register_23_14
+  implementation constraint: INIT=r	 : register_24_13
+  implementation constraint: INIT=r	 : register_25_12
+  implementation constraint: INIT=r	 : register_26_11
+  implementation constraint: INIT=r	 : register_27_10
+  implementation constraint: INIT=r	 : register_28_9
+  implementation constraint: INIT=r	 : register_29_8
+  implementation constraint: INIT=r	 : register_30_7
+  implementation constraint: INIT=r	 : register_0_9
+  implementation constraint: INIT=r	 : register_1_8
+  implementation constraint: INIT=r	 : register_2_7
+  implementation constraint: INIT=r	 : register_3_6
+  implementation constraint: INIT=r	 : register_4_5
+  implementation constraint: INIT=r	 : register_5_4
+  implementation constraint: INIT=r	 : register_6_3
+  implementation constraint: INIT=r	 : register_7_2
+  implementation constraint: INIT=r	 : register_8_1
+  implementation constraint: INIT=r	 : register_9_0
+  implementation constraint: INIT=r	 : register_9_31
+  implementation constraint: INIT=r	 : register_10_30
+  implementation constraint: INIT=r	 : register_11_29
+  implementation constraint: INIT=r	 : register_12_28
+  implementation constraint: INIT=r	 : register_13_27
+  implementation constraint: INIT=r	 : register_14_26
+  implementation constraint: INIT=r	 : register_15_25
+  implementation constraint: INIT=r	 : register_16_24
+  implementation constraint: INIT=r	 : register_17_23
+  implementation constraint: INIT=r	 : register_18_22
+  implementation constraint: INIT=r	 : register_19_21
+  implementation constraint: INIT=r	 : register_20_20
+  implementation constraint: INIT=r	 : register_21_19
+  implementation constraint: INIT=r	 : register_22_18
+  implementation constraint: INIT=r	 : register_23_17
+  implementation constraint: INIT=r	 : register_24_16
+  implementation constraint: INIT=r	 : register_25_15
+  implementation constraint: INIT=r	 : register_26_14
+  implementation constraint: INIT=r	 : register_27_13
+  implementation constraint: INIT=r	 : register_28_12
+  implementation constraint: INIT=r	 : register_29_11
+  implementation constraint: INIT=r	 : register_30_10
+  implementation constraint: INIT=r	 : register_0_20
+  implementation constraint: INIT=r	 : register_1_19
+  implementation constraint: INIT=r	 : register_2_18
+  implementation constraint: INIT=r	 : register_3_17
+  implementation constraint: INIT=r	 : register_4_16
+  implementation constraint: INIT=r	 : register_5_15
+  implementation constraint: INIT=r	 : register_6_14
+  implementation constraint: INIT=r	 : register_7_13
+  implementation constraint: INIT=r	 : register_8_12
+  implementation constraint: INIT=r	 : register_9_11
+  implementation constraint: INIT=r	 : register_10_10
+  implementation constraint: INIT=r	 : register_11_9
+  implementation constraint: INIT=r	 : register_12_8
+  implementation constraint: INIT=r	 : register_13_7
+  implementation constraint: INIT=r	 : register_14_6
+  implementation constraint: INIT=r	 : register_15_5
+  implementation constraint: INIT=r	 : register_16_4
+  implementation constraint: INIT=r	 : register_17_3
+  implementation constraint: INIT=r	 : register_18_2
+  implementation constraint: INIT=r	 : register_19_1
+  implementation constraint: INIT=r	 : register_20_0
+  implementation constraint: INIT=r	 : register_20_31
+  implementation constraint: INIT=r	 : register_21_30
+  implementation constraint: INIT=r	 : register_22_29
+  implementation constraint: INIT=r	 : register_23_28
+  implementation constraint: INIT=r	 : register_24_27
+  implementation constraint: INIT=r	 : register_25_26
+  implementation constraint: INIT=r	 : register_26_25
+  implementation constraint: INIT=r	 : register_27_24
+  implementation constraint: INIT=r	 : register_28_23
+  implementation constraint: INIT=r	 : register_29_22
+  implementation constraint: INIT=r	 : register_30_21
+  implementation constraint: INIT=r	 : register_31_7
+  implementation constraint: INIT=r	 : register_31_8
+  implementation constraint: INIT=r	 : register_31_10
+  implementation constraint: INIT=r	 : register_31_11
+  implementation constraint: INIT=r	 : register_31_12
+  implementation constraint: INIT=r	 : register_31_13
+  implementation constraint: INIT=r	 : register_31_14
+  implementation constraint: INIT=r	 : register_31_15
+  implementation constraint: INIT=r	 : register_31_16
+  implementation constraint: INIT=r	 : register_31_17
+  implementation constraint: INIT=r	 : register_31_18
+  implementation constraint: INIT=r	 : register_31_19
+  implementation constraint: INIT=r	 : register_31_21
+  implementation constraint: INIT=r	 : register_31_22
+  implementation constraint: INIT=r	 : register_31_23
+  implementation constraint: INIT=r	 : register_31_24
+  implementation constraint: INIT=r	 : register_31_25
+  implementation constraint: INIT=r	 : register_31_26
+  implementation constraint: INIT=r	 : register_31_27
+  implementation constraint: INIT=r	 : register_31_28
+  implementation constraint: INIT=r	 : register_31_29
+  implementation constraint: INIT=r	 : register_31_30
+  implementation constraint: INIT=r	 : register_31_0
+  implementation constraint: INIT=r	 : register_31_31
+  implementation constraint: INIT=r	 : register_31_1
+  implementation constraint: INIT=r	 : register_31_2
+  implementation constraint: INIT=r	 : register_31_3
+  implementation constraint: INIT=r	 : register_31_4
+  implementation constraint: INIT=r	 : register_31_5
+  implementation constraint: INIT=r	 : register_31_6
+  implementation constraint: INIT=r	 : register_31_9
+  implementation constraint: INIT=r	 : register_31_20
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : GRF.ngr
+Top Level Output File Name         : GRF
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : XC9500 CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 114
+
+Cell Usage :
+# BELS                             : 12315
+#      AND2                        : 6123
+#      AND3                        : 15
+#      AND4                        : 15
+#      AND6                        : 2
+#      INV                         : 3120
+#      OR2                         : 3040
+# FlipFlops/Latches                : 1024
+#      FD                          : 1024
+# IO Buffers                       : 114
+#      IBUF                        : 50
+#      OBUF                        : 64
+=========================================================================
+
+
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 19.40 secs
+ 
+--> 
+
+Total memory usage is 4816360 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

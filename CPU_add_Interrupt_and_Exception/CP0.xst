@@ -1,0 +1,5 @@
+set -tmpdir "E:/CPU Project/CPU_add_Interrupt_and_Exception/xst/projnav.tmp"
+set -xsthdpdir "E:/CPU Project/CPU_add_Interrupt_and_Exception/xst"
+elaborate
+-ifn CP0.prj
+-ifmt mixed
