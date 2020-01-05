@@ -1,0 +1,209 @@
+ISim log file
+Running: E:\CPU Project\string2\test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/CPU Project/string2/test_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+initial......
+Finished circuit initialization process.
+clr is not enabled
+0
+clr is not enabled
+0
+clr is not enabled
+11
+clr is not enabled
+12
+clr is not enabled
+7
+clr is not enabled
+0
+clr is not enabled
+9
+clr is not enabled
+10
+clr is not enabled
+12
+clr is not enabled
+13
+clr is not enabled
+7
+clr is not enabled
+12
+clr is not enabled
+1
+clr is not enabled
+2
+clr is not enabled
+3
+clr is not enabled
+4
+clr is not enabled
+5
+clr is not enabled
+7
+clr is not enabled
+12
+clr is not enabled
+0
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8
+clr is not enabled
+8

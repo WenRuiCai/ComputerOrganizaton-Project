@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/CPU Project/ZIDONGJI/id_fsm.xst" -ofn "E:/CPU Project/ZIDONGJI/id_fsm.syr" 

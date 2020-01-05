@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "E:/CPU Project/one/muxtwo.xst" -ofn "E:/CPU Project/one/muxtwo.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9500 "muxtwo.ngc" muxtwo.ngd  
+cpldfit -intstyle ise -p xc95*-*-* -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk muxtwo.ngd 
+XSLTProcess muxtwo_build.xml 
+tsim -intstyle ise muxtwo muxtwo.nga 
+taengine -intstyle ise -f muxtwo -w --format html1 -l muxtwo_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n muxtwo -i muxtwo 
+xst -intstyle ise -ifn "E:/CPU Project/one/muxtwo.xst" -ofn "E:/CPU Project/one/muxtwo.syr" 
+xst -intstyle ise -ifn "E:/CPU Project/one/muxtwo.xst" -ofn "E:/CPU Project/one/muxtwo.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9500 "muxtwo.ngc" muxtwo.ngd  
+cpldfit -intstyle ise -p xc95*-*-* -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk muxtwo.ngd 
+XSLTProcess muxtwo_build.xml 
+cpldfit -intstyle ise -p xc95*-*-* -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk muxtwo.ngd 
+XSLTProcess muxtwo_build.xml 
+XSLTProcess muxtwo_build.xml 
+XSLTProcess muxtwo_build.xml 

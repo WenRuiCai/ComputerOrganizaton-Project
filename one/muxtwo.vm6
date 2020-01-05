@@ -1,0 +1,80 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500 | 953644PC | XC9536-5-PC44
+
+DEVICE | 9536 | 953644PC | 
+
+NETWORK | muxtwo | 0 | 0 | 201342983
+
+INPUT_INSTANCE | 0 | 0 | NULL | sl_IBUF | muxtwo_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | sl | 66 | PI | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | sl_IBUF | 61 | ? | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | NULL | sl_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | b_IBUF | muxtwo_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b | 67 | PI | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b_IBUF | 62 | ? | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | NULL | b_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a_IBUF | muxtwo_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a | 68 | PI | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a_IBUF | 63 | ? | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | NULL | a_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | OptxMapped | out_OBUF | muxtwo_COPY_0_COPY_0 | 2155872256 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sl_IBUF | 61 | ? | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | NULL | sl_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_IBUF | 63 | ? | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | NULL | a_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_IBUF | 62 | ? | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | NULL | b_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | out_OBUF | 64 | ? | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | out_OBUF.Q | out_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | out_OBUF.UIM | 73 | ? | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | out_OBUF.Q | out_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | out_OBUF.SI | out_OBUF | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sl_IBUF | 61 | ? | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | NULL | sl_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_IBUF | 63 | ? | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | NULL | a_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_IBUF | 62 | ? | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | NULL | b_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | out_OBUF.D1 | 70 | ? | 0 | 4096 | out_OBUF | NULL | NULL | out_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | out_OBUF.D2 | 71 | ? | 0 | 4096 | out_OBUF | NULL | NULL | out_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | sl_IBUF | IV_TRUE | b_IBUF
+SPPTERM | 2 | IV_FALSE | sl_IBUF | IV_TRUE | a_IBUF
+
+SRFF_INSTANCE | out_OBUF.REG | out_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | out_OBUF.D | 69 | ? | 0 | 0 | out_OBUF | NULL | NULL | out_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | out_OBUF.Q | 72 | ? | 0 | 0 | out_OBUF | NULL | NULL | out_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | out | muxtwo_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | out_OBUF | 64 | ? | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | out_OBUF.Q | out_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | out | 65 | PO | 0 | 0 | muxtwo_COPY_0_COPY_0 | NULL | NULL | out | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | muxtwo_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | out_OBUF | 1 | NULL | 0 | out | 1 | 3 | 49152
+FBPIN | 8 | NULL | 0 | sl_IBUF | 1 | NULL | 0 | 9 | 49152
+FBPIN | 9 | NULL | 0 | a_IBUF | 1 | NULL | 0 | 11 | 49152
+
+FB_INSTANCE | FOOBAR2_ | muxtwo_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 9 | NULL | 0 | b_IBUF | 1 | NULL | 0 | 36 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | muxtwo_COPY_0_COPY_0 | 0 | 0 | 0
+
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 0 | sl | 9 | 1 | a | 11 | 2 | b | 36
+
+FB_IMUX_INDEX | FOOBAR1_ | 36 | 37 | 38 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+

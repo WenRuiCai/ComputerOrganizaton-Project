@@ -1,0 +1,311 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: id_fsm.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "id_fsm.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "id_fsm"
+Output Format                      : NGC
+Target Device                      : XC9500 CPLDs
+
+---- Source Options
+Top Module Name                    : id_fsm
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "id_fsm.v" in library work
+Module <id_fsm> compiled
+No errors in compilation
+Analysis of file <"id_fsm.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <id_fsm> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <id_fsm>.
+WARNING:Xst:2320 - "id_fsm.v" line 37: Value for signal store in initial block is not constant. The initialization will be ignored.
+WARNING:Xst:1760 - "id_fsm.v" line 58: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 58: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 58: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 58: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 58: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 59: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 59: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 59: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 59: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 59: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 60: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 60: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 60: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 60: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 57: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 57: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 57: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 58: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 58: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 58: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 58: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 58: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 59: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 59: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 59: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 59: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 59: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 60: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 60: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 57: Overflow in constant operation.
+WARNING:Xst:1760 - "id_fsm.v" line 57: Overflow in constant operation.
+Module <id_fsm> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <id_fsm>.
+    Related source file is "id_fsm.v".
+WARNING:Xst:647 - Input <number> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <B11> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <B10> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <B01<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <B00> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <A11> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <A10> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <A01> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <A00> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:643 - "id_fsm.v" line 52: The result of a 32x5-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 53: The result of a 32x5-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 53: The result of a 32x10-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 54: The result of a 32x5-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 55: The result of a 32x5-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 55: The result of a 32x10-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 52: The result of a 32x10-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 52: The result of a 32x15-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 53: The result of a 32x15-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 53: The result of a 32x30-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 54: The result of a 32x10-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 54: The result of a 32x15-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 55: The result of a 32x15-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 55: The result of a 32x30-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 52: The result of a 32x30-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 52: The result of a 32x32-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 53: The result of a 32x32-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 53: The result of a 32x28-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 54: The result of a 32x30-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 54: The result of a 32x32-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 55: The result of a 32x32-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 55: The result of a 32x28-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 52: The result of a 32x32-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 52: The result of a 32x32-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 53: The result of a 32x32-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 54: The result of a 32x32-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 54: The result of a 32x32-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "id_fsm.v" line 55: The result of a 32x32-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+    Found 32x5-bit multiplier for signal <B00$mult0014> created at line 52.
+    Found 32x10-bit multiplier for signal <B00$mult0015> created at line 52.
+    Found 32x15-bit multiplier for signal <B00$mult0016> created at line 52.
+    Found 32x30-bit multiplier for signal <B00$mult0017> created at line 52.
+    Found 32x32-bit multiplier for signal <B00$mult0018> created at line 52.
+    Found 32x32-bit multiplier for signal <B00$mult0019> created at line 52.
+    Found 32x32-bit multiplier for signal <B00$mult0020> created at line 52.
+    Found 32-bit register for signal <B01>.
+    Found 32x5-bit multiplier for signal <B01$mult0014> created at line 53.
+    Found 32x10-bit multiplier for signal <B01$mult0015> created at line 53.
+    Found 32x15-bit multiplier for signal <B01$mult0016> created at line 53.
+    Found 32x30-bit multiplier for signal <B01$mult0017> created at line 53.
+    Found 32x32-bit multiplier for signal <B01$mult0018> created at line 53.
+    Found 32x28-bit multiplier for signal <B01$mult0019> created at line 53.
+    Found 32x32-bit multiplier for signal <B01$mult0020> created at line 53.
+    Found 32x5-bit multiplier for signal <B10$mult0014> created at line 54.
+    Found 32x10-bit multiplier for signal <B10$mult0015> created at line 54.
+    Found 32x15-bit multiplier for signal <B10$mult0016> created at line 54.
+    Found 32x30-bit multiplier for signal <B10$mult0017> created at line 54.
+    Found 32x32-bit multiplier for signal <B10$mult0018> created at line 54.
+    Found 32x32-bit multiplier for signal <B10$mult0019> created at line 54.
+    Found 32x32-bit multiplier for signal <B10$mult0020> created at line 54.
+    Found 32x5-bit multiplier for signal <B11$mult0014> created at line 55.
+    Found 32x10-bit multiplier for signal <B11$mult0015> created at line 55.
+    Found 32x15-bit multiplier for signal <B11$mult0016> created at line 55.
+    Found 32x30-bit multiplier for signal <B11$mult0017> created at line 55.
+    Found 32x32-bit multiplier for signal <B11$mult0018> created at line 55.
+    Found 32x28-bit multiplier for signal <B11$mult0019> created at line 55.
+    Found 32x32-bit multiplier for signal <B11$mult0020> created at line 55.
+    Found 32-bit adder for signal <old_B01_14$addsub0000> created at line 53.
+    Found 32-bit adder for signal <old_B01_21$addsub0000> created at line 53.
+    Found 32-bit adder for signal <old_B01_28$addsub0000> created at line 53.
+    Found 32-bit adder for signal <old_B01_7$addsub0000> created at line 53.
+    Found 32-bit adder for signal <old_B11_10$addsub0000> created at line 55.
+    Found 32-bit adder for signal <old_B11_17$addsub0000> created at line 55.
+    Found 32-bit adder for signal <old_B11_24$addsub0000> created at line 55.
+    Found 32-bit adder for signal <old_B11_31$addsub0000> created at line 55.
+    Found 32-bit register for signal <store>.
+    Summary:
+	inferred  17 Adder/Subtractor(s).
+	inferred  28 Multiplier(s).
+Unit <id_fsm> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 28
+ 32x10-bit multiplier                                  : 4
+ 32x15-bit multiplier                                  : 4
+ 32x28-bit multiplier                                  : 2
+ 32x30-bit multiplier                                  : 4
+ 32x32-bit multiplier                                  : 10
+ 32x5-bit multiplier                                   : 4
+# Adders/Subtractors                                   : 17
+ 32-bit adder                                          : 17
+# Registers                                            : 2
+ 32-bit register                                       : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+failed to translate terminal to FCT
+
+B01$mux0000[0] = 
+If !($old_store_1) Then $old_B01_3[31]
+If $old_store_1 Then 
+  If !($old_store_5) Then $old_B01_7[31]
+  If $old_store_5 Then 
+    If !($old_store_12) Then $old_B01_14[31]
+    If $old_store_12 Then 
+      If !($old_store_19) Then $old_B01_21[31]
+      If $old_store_19 Then 
+        If !($old_store_26) Then $old_B01_28[31]
+        If $old_store_26 Then 
+          If !($old_store_33) Then $old_B01_35[31]
+          If $old_store_33 Then 
+            If !($old_store_38) Then $old_B01_40[31]
+            If $old_store_38 Then 
+              If !($old_store_43) Then $old_B01_45[31]
+              If $old_store_43 Then 
+                If !($old_store_48) Then $old_B01_50[31]
+                If $old_store_48 Then 
+                  If !($old_store_53) Then $old_B01_55[31]
+                  If $old_store_53 Then 
+                    If !($old_store_58) Then $old_B01_60[31]
+                    If $old_store_58 Then 
+                      If !($old_store_63) Then $old_B01_65[31]
+                      If $old_store_63 Then 
+                        If !($old_store_68) Then $old_B01_70[31]
+                        If $old_store_68 Then 
+                          If !($old_store_73) Then $old_B01_75[31]
+                          If $old_store_73 Then 
+                            If !($old_store_78) Then $old_B01_80[31]
+                            If $old_store_78 Then 
+                              If !($old_store_83) Then $old_B01_85[31]
+                              If $old_store_83 Then 
+                                If !($old_store_88) Then $old_B01_90[31]
+                                If $old_store_88 Then 
+                                  If !($old_store_93) Then $old_B01_95[31]
+                                  If $old_store_93 Then 
+                                    If !($old_store_98) Then $old_B01_100[31]
+                                    If $old_store_98 Then 
+                                      If !($old_store_103) Then $old_B01_105[31]
+                                      If $old_store_103 Then 
+                                        If !($old_store_108) Then $old_B01_110[31]
+                                        If $old_store_108 Then 
+                                          If !($old_store_113) Then $old_B01_115[31]
+                                          If $old_store_113 Then 
+                                            If !($old_store_118) Then $old_B01_120[31]
+                                            If $old_store_118 Then 
+                                              If !($old_store_123) Then $old_B01_125[31]
+                                              If $old_store_123 Then 
+                                                If !($old_store_128) Then $old_B01_130[31]
+                                                If $old_store_128 Then 
+                                                  If !($old_store_133) Then $old_B01_135[31]
+                                                  If $old_store_133 Then 
+                                                    If !($old_store_138) Then $old_B01_140[31]
+                                                    If $old_store_138 Then 
+                                                      If !($old_store_143) Then $old_B01_145[31]
+                                                      If $old_store_143 Then 
+                                                        If !($old_store_148) Then $old_B01_150[31]
+                                                        If $old_store_148 Then 
+                                                          If !($old_store_153) Then $old_B01_155[31]
+                                                          If $old_store_153 Then 
+                                                            If $old_store_158 Then old_B01_3$const0001[31]
+                                                            If !($old_store_158) Then $old_B01_160[31]
+--> 
+
+Total memory usage is 4631844 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   69 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

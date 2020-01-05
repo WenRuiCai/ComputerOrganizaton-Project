@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/CPU Project/one/ff.xst" -ofn "E:/CPU Project/one/ff.syr" 
+xst -intstyle ise -ifn "E:/CPU Project/one/ff.xst" -ofn "E:/CPU Project/one/ff.syr" 

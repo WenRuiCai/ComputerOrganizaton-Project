@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2320" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">37</arg>: Value for signal <arg fmt="%s" index="3">store</arg> in initial block is not constant. The initialization will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">58</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">58</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">58</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">58</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">58</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">57</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">57</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">57</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">58</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">58</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">58</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">58</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">58</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">57</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="1760" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">57</arg>: Overflow in constant operation.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">number</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">B11</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">B10</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">B01&lt;31:1&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">B00</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">A11</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">A10</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">A01</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">A00</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">52</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">5</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">53</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">5</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">53</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">10</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">54</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">5</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">5</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">10</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">52</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">10</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">52</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">15</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">53</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">15</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">53</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">30</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">54</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">10</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">54</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">15</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">15</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">30</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">52</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">30</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="old" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">52</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">32</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="old" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">53</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">32</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">53</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">28</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">54</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">30</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="old" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">54</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">32</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="old" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">32</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">28</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="old" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">52</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">32</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="old" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">52</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">32</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="old" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">53</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">32</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="old" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">54</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">32</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="old" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">54</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">32</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="old" >&quot;<arg fmt="%s" index="1">id_fsm.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">32</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+</messages>
+

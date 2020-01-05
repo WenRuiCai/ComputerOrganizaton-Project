@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "E:/CPU Project/CPU_add_Interrupt_and_Exception/mips.xst" -ofn "E:/CPU Project/CPU_add_Interrupt_and_Exception/mips.syr" 

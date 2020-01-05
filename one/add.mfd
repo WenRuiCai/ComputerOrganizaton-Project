@@ -1,0 +1,47 @@
+MDF Database:  version 1.0
+MDF_INFO | add | XC9536-5-PC44
+MACROCELL | 0 | 17 | a_rnm0
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 0 | 17 | 0 | 1 | 1 | 1
+INPUTS | 3 | a_rnm0  | en  | A
+INPUTMC | 1 | 0 | 17
+INPUTP | 2 | 9 | 36
+EQ | 3 | 
+   a_rnm0.D = a_rnm0 & !en
+	# en & A;
+   a_rnm0.CLK = clk;	// GCK
+GLOBALS | 1 | 2 | clk
+
+MACROCELL | 0 | 16 | b_rnm0
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 0 | 16 | 0 | 1 | 1 | 1
+INPUTS | 3 | en  | B  | b_rnm0
+INPUTMC | 1 | 0 | 16
+INPUTP | 2 | 9 | 11
+EQ | 3 | 
+   b_rnm0.D = b_rnm0 & !en
+	# en & B;
+   b_rnm0.CLK = clk;	// GCK
+GLOBALS | 1 | 2 | clk
+
+MACROCELL | 0 | 1 | Overflow_OBUF
+ATTRIBUTES | 396034 | 0
+INPUTS | 2 | a_rnm0  | b_rnm0
+INPUTMC | 2 | 0 | 17 | 0 | 16
+EQ | 1 | 
+   Overflow = a_rnm0 & b_rnm0;
+
+MACROCELL | 1 | 1 | sum_OBUF
+ATTRIBUTES | 396034 | 0
+INPUTS | 2 | b_rnm0  | a_rnm0
+INPUTMC | 2 | 0 | 16 | 0 | 17
+EQ | 2 | 
+   sum = b_rnm0
+	$ a_rnm0;
+
+PIN | clk | 4096 | 0 | N/A | 5 | 2 | 0 | 17 | 0 | 16
+PIN | en | 64 | 0 | N/A | 9 | 2 | 0 | 17 | 0 | 16
+PIN | A | 64 | 0 | N/A | 36 | 1 | 0 | 17
+PIN | B | 64 | 0 | N/A | 11 | 1 | 0 | 16
+PIN | Overflow | 536871040 | 0 | N/A | 3
+PIN | sum | 536871040 | 0 | N/A | 44

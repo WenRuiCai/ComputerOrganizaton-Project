@@ -1,5 +1,0 @@
-xst -intstyle ise -ifn "E:/CPU Project/Single_Turn_CPU/mips.xst" -ofn "E:/CPU Project/Single_Turn_CPU/mips.syr" 
-xst -intstyle ise -ifn "E:/CPU Project/Single_Turn_CPU/mips.xst" -ofn "E:/CPU Project/Single_Turn_CPU/mips.syr" 
-xst -intstyle ise -ifn "E:/CPU Project/Single_Turn_CPU/mips.xst" -ofn "E:/CPU Project/Single_Turn_CPU/mips.syr" 
-xst -intstyle ise -ifn "E:/CPU Project/Single_Turn_CPU/mips.xst" -ofn "E:/CPU Project/Single_Turn_CPU/mips.syr" 
-xst -intstyle ise -ifn "E:/CPU Project/Single_Turn_CPU/mips.xst" -ofn "E:/CPU Project/Single_Turn_CPU/mips.syr" 
