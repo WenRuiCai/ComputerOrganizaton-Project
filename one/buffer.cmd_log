@@ -1,7 +1,0 @@
-xst -intstyle ise -ifn "E:/CPU Project/one/buffer.xst" -ofn "E:/CPU Project/one/buffer.syr" 
-xst -intstyle ise -ifn "E:/CPU Project/one/buffer.xst" -ofn "E:/CPU Project/one/buffer.syr" 
-ngdbuild -intstyle ise -dd _ngo -i -p xc9500 "buffer.ngc" buffer.ngd  
-cpldfit -intstyle ise -p xc95*-*-* -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk buffer.ngd 
-tsim -intstyle ise buffer buffer.nga 
-taengine -intstyle ise -f buffer -w --format html1 -l buffer_html/tim/timing_report.htm 
-hprep6 -s IEEE1149 -n buffer -i buffer 

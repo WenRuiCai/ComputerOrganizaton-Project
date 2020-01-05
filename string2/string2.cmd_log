@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "E:/CPU Project/string2/string2.xst" -ofn "E:/CPU Project/string2/string2.syr" 

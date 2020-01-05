@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "uni9000_ver" -lib "aim_ver" -lib "cpld_ver" -lib "xilinxcorelib_ver" -o "E:/CPU Project/string/d_isim_beh.exe" -prj "E:/CPU Project/string/d_beh.prj" "work.d" "work.glbl" 
